@@ -5,18 +5,22 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Config" Type="Folder">
+		<Item Name="ProtocolParameters.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/SerialProtocols/Configuration/ProtocolParameters.ctl"/>
 		<Item Name="SerialConfig.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/SerialProtocols/Configuration/SerialConfig.ctl"/>
 		<Item Name="SerialProtocol.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/SerialProtocols/Configuration/SerialProtocol.ctl"/>
 	</Item>
-	<Item Name="SerialCommFactory" Type="Folder">
-		<Item Name="ISerialCommFactory.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialCommFactory/ISerialCommFactory/ISerialCommFactory.lvclass"/>
-		<Item Name="SerialCommFactory.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialCommFactory/SerialCommFactory/SerialCommFactory.lvclass"/>
-	</Item>
 	<Item Name="SerialCommunicator" Type="Folder">
-		<Item Name="RS232.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialCommunicator/RS232/RS232.lvclass"/>
-		<Item Name="RS485.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialCommunicator/RS485/RS485.lvclass"/>
-		<Item Name="SerialCommunicator.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialCommunicator/SerialCommunicator/SerialCommunicator.lvclass"/>
-		<Item Name="SerialReal.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialCommunicator/SerialReal/SerialReal.lvclass"/>
-		<Item Name="SerialSimulator.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialCommunicator/SerialSimulator/SerialSimulator.lvclass"/>
+		<Item Name="SerialCommunicator.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialCommunicator/SerialCommunicator.lvclass"/>
+	</Item>
+	<Item Name="SerialProtocol" Type="Folder">
+		<Item Name="RS232.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialProtocol/RS232/RS232.lvclass"/>
+		<Item Name="RS485.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialProtocol/RS485/RS485.lvclass"/>
+		<Item Name="SerialProtocol.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialProtocol/SerialProtocol/SerialProtocol.lvclass"/>
+		<Item Name="SerialReal.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialProtocol/SerialReal/SerialReal.lvclass"/>
+		<Item Name="SerialSimulator.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialProtocol/SerialSimulator/SerialSimulator.lvclass"/>
+	</Item>
+	<Item Name="SerialProtocolFactory" Type="Folder">
+		<Item Name="ISerialProtocolFactory.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialProtocolFactory/ISerialProtocolFactory/ISerialProtocolFactory.lvclass"/>
+		<Item Name="SerialProtocolFactory.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialProtocolFactory/SerialProtocolFactory/SerialProtocolFactory.lvclass"/>
 	</Item>
 </Library>
