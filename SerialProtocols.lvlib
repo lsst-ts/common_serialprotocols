@@ -7,6 +7,7 @@
 	<Item Name="Config" Type="Folder">
 		<Item Name="ProtocolParameters.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/SerialProtocols/Configuration/ProtocolParameters.ctl"/>
 		<Item Name="SerialConfig.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/SerialProtocols/Configuration/SerialConfig.ctl"/>
+		<Item Name="SerialMessageParameters.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/SerialProtocols/Configuration/SerialMessageParameters.ctl"/>
 		<Item Name="SerialProtocol.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/SerialProtocols/Configuration/SerialProtocol.ctl"/>
 	</Item>
 	<Item Name="SerialCommunicator" Type="Folder">
